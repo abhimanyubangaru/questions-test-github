@@ -36,7 +36,7 @@ function App() {
     <div className="container">
       <p>
 
-        <Header />
+        <Header /> yuh
         {currentQuestion < totalLength ?
         <Question media= {questions[currentQuestion].media}
           questionNumber = {currentQuestion}
