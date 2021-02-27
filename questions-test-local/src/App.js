@@ -2,7 +2,9 @@ import Header from './components/Header'
 import Question from './components/Question'
 import React, { useState } from 'react';
 import Donate from './components/Donate'
-function App() {
+
+
+function App(props) {
   const questions = [ // first array
     { //first question
       questionText : 'When was I a freshman?',
@@ -30,23 +32,28 @@ function App() {
     }
   ];
 
+
+  // actual variable -- the next is the function
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const totalLength = questions.length;
   return (
     <div className="container">
       <p>
 
-        <Header /> Welcome
+        <Header /> YUH
         {currentQuestion < totalLength ?
-        <Question media= {questions[currentQuestion].media}
-          questionNumber = {currentQuestion}
-          Click={() => setCurrentQuestion(currentQuestion + 1)}
+        <Question
+        media= {questions[currentQuestion].media}
+        questionNumber = {currentQuestion}
+        Click={() => setCurrentQuestion(currentQuestion + 1)}
         type = {questions[currentQuestion].type}
         title = {questions[currentQuestion].title}
         questionText={questions[currentQuestion].questionText}
         answerOptions= {questions[currentQuestion].answerOptions}/>
       :
       <h2> all out! </h2>}
+
+
 
 
 

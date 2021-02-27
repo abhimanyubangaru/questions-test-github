@@ -50,7 +50,7 @@ import Donate from './Donate'
 
 
               {props.answerOptions.map((answerOption) => (
-                <ul><button onClick={() => isOptionCorrect(answerOption.isCorrect)}>
+                <ul><button className="choices" onClick={() => isOptionCorrect(answerOption.isCorrect)}>
                     {answerOption.answerText}</button> </ul>
               ))}
 
