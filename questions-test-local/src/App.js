@@ -40,7 +40,7 @@ function App(props) {
     <div className="container">
       <p>
 
-        <Header /> YUH
+        <Header /> 
         {currentQuestion < totalLength ?
         <Question
         media= {questions[currentQuestion].media}

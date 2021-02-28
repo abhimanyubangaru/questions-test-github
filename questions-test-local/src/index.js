@@ -8,6 +8,7 @@ import Bottom from './Bottom'
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Bottom /> 
   </React.StrictMode>,
   document.getElementById('root')
 );
