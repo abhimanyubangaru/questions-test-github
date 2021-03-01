@@ -19,7 +19,6 @@ function Game(props) {
 }
 
 if (props.arrNum === 2) {
-
     qs = questions2;
 
 }

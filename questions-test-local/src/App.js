@@ -12,7 +12,7 @@ function App(props) {
   const qs = questions;
   // actual variable -- the next is the function
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [showQuestions, setShowQuestions] = useState(false);
+  const [showQuestions, setShowQuestions] = useState(true);
   const [arrNum, setArrNum] = useState(0);
   const totalLength = questions.length;
   return (

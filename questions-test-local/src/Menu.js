@@ -12,7 +12,7 @@ const Menu = (props) => {
   return (
     <div>
 
-    <button onClick={clickLH}> Long House</button>
+    <button onClick={clickLH}> 25 House</button>
     <button onClick={clickHH}> High House</button>
 
     </div>

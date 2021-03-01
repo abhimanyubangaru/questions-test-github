@@ -23,7 +23,18 @@ export const questions = [ // first array
     type: 'photo',
     title: 'a picture of the barns',
   },
-
+  {
+    questionText : 'Best Tuesday Talk?',
+    answerOptions : [
+      {answerText: "Young Su and Joe Silva" , isCorrect: true},
+      {answerText: "Baker Fox", isCorrect: false},
+      {answerText: "Ian MacFarlane and Charles Shi", isCorrect: false},
+      {answerText:"John Rokhine", isCorrect: false},
+    ],
+    media : 'https://vimeo.com/242965234',
+    type: 'video',
+    title: 'Young Su and Joe\'s Talk',
+  },
 ];
 
 export const questions2 = [
