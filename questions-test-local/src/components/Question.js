@@ -33,7 +33,7 @@ import Menu from './Menu'
     const element =  <Button
                        onClick= {() => setZero()}
                        text = "Next"
-                       color = "dodgerblue">
+                       color = "darkblue">
                      </Button> ;
 
 
