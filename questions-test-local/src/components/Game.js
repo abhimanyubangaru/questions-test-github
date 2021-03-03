@@ -28,6 +28,13 @@ function Game(props) {
 
   }
 
+  const Click = () => {
+    if(currentQuestion < totalLength -1 ){
+      setCurrentQuestion(currentQuestion + 1)
+    }
+  }
+
+
     console.log(qs);
 
     // actual variable -- the next is the function
@@ -39,22 +46,23 @@ function Game(props) {
               {() => setCurrentQuestion(0)}
 
               <Header />
-
-              {currentQuestion < totalLength ?
+              {currentQuestion == totalLength - 1 && <h2> FINAL QUESTION</h2>}
+              {currentQuestion < totalLength &&
               <Question
               media= {qs[currentQuestion].media}
               questionNumber = {currentQuestion}
-              Click={() => setCurrentQuestion(currentQuestion + 1)}
+              Click={Click}
+              onClick={() => setCurrentQuestion(0)}
               type = {qs[currentQuestion].type}
               title = {qs[currentQuestion].title}
               questionText={qs[currentQuestion].questionText}
               answerOptions= {qs[currentQuestion].answerOptions}
-              qNum = {currentQuestion}
+              final = {totalLength}
               lh = {props.lh}
               hh = {props.hh}
               />
-            :
-            <h2> Please navigate to a different question section </h2>}
+            }
+
 
 
             </p>

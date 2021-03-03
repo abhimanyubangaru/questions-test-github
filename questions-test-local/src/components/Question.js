@@ -10,11 +10,13 @@ import Menu from './Menu'
 
     const clickLH = () => {
       props.lh();
+      props.onClick();
       setScore(0);
     }
 
     const clickHH = () => {
       props.hh();
+      props.onClick();
       setScore(0);
 
     }
@@ -26,6 +28,12 @@ import Menu from './Menu'
       props.Click()
     }
     }
+
+    const element =  <Button
+                       onClick= {() => setZero()}
+                       text = "Next"
+                       color = "dodgerblue">
+                     </Button> ;
 
       const isOptionCorrect = (isCorrect) => {
 
@@ -49,16 +57,18 @@ import Menu from './Menu'
 
           <div className='question-section'>
 
-                        <button onClick={clickLH}> 25 House</button>
-                        <button onClick={clickHH}> High House</button>
+            <button onClick={clickLH}> 25 House</button>
+            <button onClick={clickHH}> High House</button>
+            <br/>
+            <br/>
+
+
+
+
             {score > 0 && <Donate media= {props.media} title={props.title}/>}
 
             <h3>{props.questionNumber+1}. {props.questionText}
-                <Button
-                   onClick= {() => setZero()}
-                   text = "Next"
-                   color = "dodgerblue">
-                 </Button>
+              {props.questionNumber < props.final - 1 && element}
             </h3>
 
 
@@ -74,13 +84,16 @@ import Menu from './Menu'
 
 
 
-              {score == 1 && <h4 style={{color : 'limegreen'}}> You Got It! Here is {props.title}! </h4>}
-              {score == 1 && <img src={props.media} width='500'/>}
-              {score == 2 && <h4 style={{color : 'limegreen'}}> You Got It! Here is {props.title}! </h4>}
-              {score == 2 && <ReactPlayer url={props.media} controls/> }
+              {score == 1 && <>
+                <h4 style={{color : 'limegreen'}}> You Got It! Here is {props.title}! </h4>
+              <img src={props.media} width='500'/>
+                             </>}
+              {score == 2 && <>
+              <h4 style={{color : 'limegreen'}}> You Got It! Here is {props.title}! </h4>
+              <ReactPlayer url={props.media} controls/>
+                            </> }
+
              {score == -1 && <h4 style={{color : 'red'}}> Uh oh! Try Again </h4>}
-
-
 
           </div>
 
