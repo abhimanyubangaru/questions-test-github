@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import {questions}  from './components/QuestionBank'
 import Game from './components/Game'
 import Nav from './components/Navi'
 import Welcome from './components/Welcome'
@@ -9,11 +8,10 @@ import AboutDorms from './components/AboutDorms'
 function App(props) {
   // this is the template for any routing component
 //    <Route path="/about" component={About}/>
-  const qs = questions;
+
   // these control the current question, the current array from which the questions are from
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [arrNum, setArrNum] = useState(0);
-  const totalLength = questions.length;
 
   return (
     <Router>

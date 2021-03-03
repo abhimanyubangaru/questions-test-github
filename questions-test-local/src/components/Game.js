@@ -9,7 +9,7 @@ import {questions2} from './QuestionBank'
 
 
 
-function Game(props) {
+  const Game = (props) => {
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
 
