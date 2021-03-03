@@ -18,6 +18,7 @@ function Game(props) {
 
     var qs = questions;
 
+    //the next two if statements take care of which array to take the questions from
     if (props.arrNum === 1) {
         qs = questions;
 
@@ -37,8 +38,10 @@ function Game(props) {
 
     console.log(qs);
 
-    // actual variable -- the next is the function
+
     const totalLength = qs.length;
+
+    //the bottom is mainly to pass in the props to the question object
         return (
           <div className="Game">
             <p>

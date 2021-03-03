@@ -7,6 +7,7 @@ import Menu from './Menu'
 
   const Question = (props) => {
     const [score, setScore] = useState(0);
+    const[hitLast,setHitLast] = useState(false);
 
     const clickLH = () => {
       props.lh();
@@ -35,6 +36,9 @@ import Menu from './Menu'
                        color = "dodgerblue">
                      </Button> ;
 
+
+
+
       const isOptionCorrect = (isCorrect) => {
 
         if (isCorrect) {
@@ -46,8 +50,15 @@ import Menu from './Menu'
         else{
           setScore(-1);
         }
+
+        if(props.questionNumber === props.final){
+          setHitLast(true);
+        }
         console.log(score);
       };
+
+
+
 
 
 
@@ -56,7 +67,7 @@ import Menu from './Menu'
 
 
           <div className='question-section'>
-
+                {/*props from the app.js changes the array from the question bank */}
             <button onClick={clickLH}> 25 House</button>
             <button onClick={clickHH}> High House</button>
             <br/>
@@ -67,13 +78,14 @@ import Menu from './Menu'
 
             {score > 0 && <Donate media= {props.media} title={props.title}/>}
 
+                {/*we only want to show the next button if there is a next question. This takes care of that problem*/}
             <h3>{props.questionNumber+1}. {props.questionText}
-              {props.questionNumber < props.final - 1 && element}
+             {props.questionNumber < props.final - 1 && element}
             </h3>
 
 
 
-
+                {/*this reads all the answeroptions and maps them into buttons which different values and onclick functions. This helps to automate the process*/}
               {props.answerOptions.map((answerOption) => (
                 <ul><button
                   value={answerOption.answerText}
@@ -83,16 +95,18 @@ import Menu from './Menu'
               ))}
 
 
-
+                  {/*This is what happens if the user wins and based on the type of media changes the function to accomodate for different types of media*/}
               {score == 1 && <>
-                <h4 style={{color : 'limegreen'}}> You Got It! Here is {props.title}! </h4>
+              <h4 style={{color : 'limegreen'}}> You Got It! Here is {props.title}! </h4>
               <img src={props.media} width='500'/>
                              </>}
+
+                  {/*This is what happens if the user wins and based on the type of media changes the function to accomodate for different types of media*/}
               {score == 2 && <>
               <h4 style={{color : 'limegreen'}}> You Got It! Here is {props.title}! </h4>
               <ReactPlayer url={props.media} controls/>
                             </> }
-
+                 {/*situation in which the user loses, then they get a red message which indicates a wrong answer*/}
              {score == -1 && <h4 style={{color : 'red'}}> Uh oh! Try Again </h4>}
 
           </div>
