@@ -63,7 +63,7 @@ export const questions2 = [
     title: 'a picture inside of 25 House',
   }
 
-]
+];
 
 
 

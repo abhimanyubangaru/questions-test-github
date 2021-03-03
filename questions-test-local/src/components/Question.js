@@ -3,10 +3,21 @@ import ReactPlayer from 'react-player';
 import Header from './Header'
 import Button from './Button'
 import Donate from './Donate'
-
+import Menu from './Menu'
 
   const Question = (props) => {
     const [score, setScore] = useState(0);
+
+    const clickLH = () => {
+      props.lh();
+      setScore(0);
+    }
+
+    const clickHH = () => {
+      props.hh();
+      setScore(0);
+
+    }
 
     // to reset the score for every question and then move onto the next question
     const setZero = () => {
@@ -15,9 +26,6 @@ import Donate from './Donate'
       props.Click()
     }
     }
-
-
-
 
       const isOptionCorrect = (isCorrect) => {
 
@@ -37,20 +45,30 @@ import Donate from './Donate'
 
         return (
 
+
+
           <div className='question-section'>
 
-              {score > 0 && <Donate media= {props.media} title={props.title}/>}
+                        <button onClick={clickLH}> 25 House</button>
+                        <button onClick={clickHH}> High House</button>
+            {score > 0 && <Donate media= {props.media} title={props.title}/>}
 
-            <h3>{props.questionNumber+1}. {props.questionText}     <Button
+            <h3>{props.questionNumber+1}. {props.questionText}
+                <Button
                    onClick= {() => setZero()}
                    text = "Next"
                    color = "dodgerblue">
-                 </Button></h3>
+                 </Button>
+            </h3>
+
 
 
 
               {props.answerOptions.map((answerOption) => (
-                <ul><button className="choices" onClick={() => isOptionCorrect(answerOption.isCorrect)}>
+                <ul><button
+                  value={answerOption.answerText}
+                  className="choices"
+                  onClick={() => isOptionCorrect(answerOption.isCorrect)}>
                     {answerOption.answerText}</button> </ul>
               ))}
 
