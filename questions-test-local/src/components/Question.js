@@ -73,7 +73,7 @@ import DormsList from './DormsList'
             <button
               value = {index + 1}
               onClick={() =>  clickDormButton(index)}>
-               {index}{dorm}
+              {dorm}
             </button>
 
           ))}

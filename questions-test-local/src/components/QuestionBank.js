@@ -1,4 +1,4 @@
-export const questions = [ // first array
+export const deucefive = [ // first array
   { //first question
     questionText : 'When was I a freshman?',
     answerOptions : [
@@ -37,7 +37,7 @@ export const questions = [ // first array
   },
 ];
 
-export const questions2 = [
+export const LongHouse = [
   {
     questionText : 'When was Cate founded?',
     answerOptions : [
@@ -68,7 +68,7 @@ export const questions2 = [
 
 
 export default{
-  questions,
-  questions2
+  deucefive,
+  LongHouse
 
 }

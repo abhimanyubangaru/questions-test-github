@@ -2,8 +2,8 @@ import Header from './Header'
 import Question from './Question'
 import React, { useState } from 'react';
 import Donate from './Donate'
-import {questions} from './QuestionBank'
-import {questions2} from './QuestionBank'
+import {deucefive} from './QuestionBank'
+import {LongHouse} from './QuestionBank'
 
 
 
@@ -17,16 +17,16 @@ import {questions2} from './QuestionBank'
 
 
 
-    var qs = questions;
+    var qs = deucefive;
 
     //the next two if statements take care of which array to take the questions from
     if (arrNum === 1) {
-        qs = questions;
+        qs = deucefive;
 
   }
 
   if (arrNum === 2) {
-      qs = questions2;
+      qs = LongHouse;
 
   }
 
