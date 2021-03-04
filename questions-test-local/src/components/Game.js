@@ -11,6 +11,7 @@ import {questions2} from './QuestionBank'
 
   const Game = (props) => {
 
+  const [arrNum,setArrNum] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(0);
 
 
@@ -19,12 +20,12 @@ import {questions2} from './QuestionBank'
     var qs = questions;
 
     //the next two if statements take care of which array to take the questions from
-    if (props.arrNum === 1) {
+    if (arrNum === 1) {
         qs = questions;
 
   }
 
-  if (props.arrNum === 2) {
+  if (arrNum === 2) {
       qs = questions2;
 
   }
@@ -44,6 +45,7 @@ import {questions2} from './QuestionBank'
     //the bottom is mainly to pass in the props to the question object
         return (
           <div className="Game">
+            {arrNum}
             <p>
 
               {() => setCurrentQuestion(0)}
@@ -61,8 +63,7 @@ import {questions2} from './QuestionBank'
               questionText={qs[currentQuestion].questionText}
               answerOptions= {qs[currentQuestion].answerOptions}
               final = {totalLength}
-              lh = {props.lh}
-              hh = {props.hh}
+              dormButton = {((index) => setArrNum(index))}
               />
             }
 

@@ -4,23 +4,21 @@ import Header from './Header'
 import Button from './Button'
 import Donate from './Donate'
 import Menu from './Menu'
+import DormsList from './DormsList'
 
   const Question = (props) => {
     const [score, setScore] = useState(0);
     const[hitLast,setHitLast] = useState(false);
 
-    const clickLH = () => {
-      props.lh();
-      props.onClick();
-      setScore(0);
-    }
 
-    const clickHH = () => {
-      props.hh();
+    const clickDormButton = (index) => {
+      props.dormButton(parseInt(index) + 1);
       props.onClick();
       setScore(0);
 
     }
+
+
 
     // to reset the score for every question and then move onto the next question
     const setZero = () => {
@@ -68,8 +66,17 @@ import Menu from './Menu'
 
           <div className='question-section'>
                 {/*props from the app.js changes the array from the question bank */}
-            <button onClick={clickLH}> 25 House</button>
-            <button onClick={clickHH}> High House</button>
+          {/*}  <button onClick={clickLH}> 25 House</button>
+        <button onClick={clickHH}> High House</button> */}
+
+          {DormsList.map((dorm,index) => (
+            <button
+              value = {index + 1}
+              onClick={() =>  clickDormButton(index)}>
+               {index}{dorm}
+            </button>
+
+          ))}
             <br/>
             <br/>
 

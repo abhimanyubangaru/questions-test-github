@@ -11,7 +11,7 @@ function App(props) {
 
   // these control the current question, the current array from which the questions are from
   const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [arrNum, setArrNum] = useState(0);
+
 
   return (
     <Router>
@@ -27,9 +27,6 @@ function App(props) {
 
     <Game {...props}
 
-    arrNum= {arrNum}
-    lh={() => setArrNum(1)}
-    hh={()=> setArrNum(2)}
 
           />
       )}
