@@ -65,7 +65,7 @@ export const LongHouse = [
 
 ];
 
-
+//I will add more dorms later ~ Jay
 export const SchoolHouse = [
   {
     questionText : 'Test',
