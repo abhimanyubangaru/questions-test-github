@@ -7,7 +7,7 @@ const Bottom = () => {
 
   return (
     <div>
-      Abhi Bangaru
+      Abhi Bangaru <br/>
       Jay Hernandez
     </div>
   )
