@@ -66,8 +66,7 @@ import DormsList from './DormsList'
 
           <div className='question-section'>
                 {/*props from the app.js changes the array from the question bank */}
-          {/*}  <button onClick={clickLH}> 25 House</button>
-        <button onClick={clickHH}> High House</button> */}
+          {/* Used .map to make buttons for each of the dorms and gave unique index points*/}
 
           {DormsList.map((dorm,index) => (
             <button

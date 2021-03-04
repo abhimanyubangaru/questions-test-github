@@ -66,10 +66,40 @@ export const LongHouse = [
 ];
 
 
+export const SchoolHouse = [
+  {
+    questionText : 'Test',
+    answerOptions : [
+      {answerText: "1910" , isCorrect: true},
+      {answerText: "1900", isCorrect: false},
+      {answerText: "1911", isCorrect: false},
+      {answerText:"2021", isCorrect: false},
+    ],
+    media : 'https://www.cate.org/wp-content/uploads/2016/08/LH-1024x682.jpg',
+    type: 'photo',
+    title: 'a picture of Long House',
+  },
+  {
+    questionText : 'Which dorm is the best dorm on campus?',
+    answerOptions : [
+      {answerText: "Parsonage" , isCorrect: false},
+      {answerText: "Long House", isCorrect: false},
+      {answerText: "High House ", isCorrect: false},
+      {answerText:"25 House", isCorrect: true},
+    ],
+    media : 'https://www.cate.org/wp-content/uploads/2016/09/Cookie-Delivery_091214-10.jpg',
+    type: 'photo',
+    title: 'a picture inside of 25 House',
+  }
+
+];
+
+
 
 
 export default{
   deucefive,
-  LongHouse
+  LongHouse,
+  SchoolHouse
 
 }

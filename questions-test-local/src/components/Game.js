@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Donate from './Donate'
 import {deucefive} from './QuestionBank'
 import {LongHouse} from './QuestionBank'
-
+import {SchoolHouse} from './QuestionBank'
 
 
 
@@ -28,6 +28,10 @@ import {LongHouse} from './QuestionBank'
   if (arrNum === 2) {
       qs = LongHouse;
 
+  }
+
+  if(arrNum === 3){
+    qs = SchoolHouse;
   }
 
   const Click = () => {
