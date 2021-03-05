@@ -7,9 +7,7 @@ const Bottom = () => {
 
   return (
     <div>
-      Abhi Bangaru <br/>
-      Jay Hernandez
-      test
+      Made By 25 House
     </div>
   )
 }
