@@ -7,7 +7,7 @@ const Bottom = () => {
 
   return (
     <div>
-      Made By 25 House
+      
     </div>
   )
 }
