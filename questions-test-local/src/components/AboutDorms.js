@@ -1,21 +1,15 @@
 import React from 'react'
+import DormsList from './DormsList'
+
 
 const AboutDorms = () => {
   return (
     <div>
           {/*List of dorms as prototype*/}
-    <ul>
-      <li> 25H </li>
-      <li> LH </li>
-      <li> HH </li>
-      <li> LIDO </li>
-      <li> SH </li>
-      <li> CHW </li>
-      <li> CHE </li>
-      <li> SAVAGE </li>
-      <li> PARS </li>
-      <li> BOT </li>
-    </ul>
+          {DormsList.map((dorm,index) => (
+            <ul> <li>{dorm}</li></ul>
+
+          ))}
   </div>
   )
 }
