@@ -7,7 +7,7 @@ const Bottom = () => {
 
   return (
     <div>
-      
+      Made by Abhi Alexander and Jay
     </div>
   )
 }
