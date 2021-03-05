@@ -119,8 +119,7 @@ export const Pars = [
     title : "Pear-each Bby gurl",
   },
   {
-    questionText : 'The Pars Bruvs partied like the early 2000\'s when they reached a number on the refillable
-      water\-bottle station\. What number was it?',
+    questionText : 'The Pars Bruvs partied like the early 2000\'s when they reached a number on the refillable water-bottle station. What number was it?',
     answerOptions : [
       {answerText: "1960", isCorrect: false},
       {answerText: "2021", isCorrect: false},
@@ -228,7 +227,7 @@ export const CHW = [
 
 export const CHE = [
   {
-    questionText : 'CHW Test 1',
+    questionText : 'CHE Test 1',
     answerOptions : [
       {answerText: "Wrong Answer", isCorrect: false},
       {answerText: "WRONG", isCorrect: false},
@@ -310,6 +309,14 @@ export const Bothin = [
 export default{
   deucefive,
   LongHouse,
-  SchoolHouse
+  SchoolHouse,
+  Pars,
+  HighHouse,
+  Lido,
+  CHW,
+  CHE,
+  Savage,
+  Bothin,
+
 
 }

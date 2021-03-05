@@ -10,7 +10,8 @@ import {CHW} from './QuestionBank'
 import {CHE} from './QuestionBank'
 import {Savage} from './QuestionBank'
 import {Bothin} from './QuestionBank'
-
+import {HighHouse} from './QuestionBank'
+import {Lido} from './QuestionBank'
 
 
 
@@ -40,28 +41,34 @@ import {Bothin} from './QuestionBank'
   }
 
   if (arrNum === 4 ) {
-    qs = Pars
+    qs = Pars;
   }
 
   if (arrNum === 5) {
-    qs = Lido
-  }
-
-  if (arrNum === 5) {
-    qs = CHW
+    qs = HighHouse;
   }
 
   if (arrNum === 6) {
-    qs = CHE
+    qs = Lido;
   }
 
   if (arrNum === 7) {
-    qs = Savage
+    qs = CHW;
   }
 
   if (arrNum === 8) {
-    qs = Bothin
+    qs = CHE;
   }
+
+  if (arrNum === 9) {
+    qs = Savage;
+  }
+
+  if(arrNum === 10){
+    qs = Bothin;
+  }
+
+
 
   const Click = () => {
     if(currentQuestion < totalLength -1 ){

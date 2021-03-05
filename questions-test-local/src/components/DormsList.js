@@ -4,14 +4,13 @@ export const DormsList = [
     "25House",
     "LongHouse",
     "SchoolHouse",
-    "Lido",
+    "Pars",
     "HighHouse",
+    "Lido",
     "CHW",
     "CHE",
-    "Parsonage",
-    "Bothin",
     "Savage",
-
+    "Bothin",
 ];
 
 export default DormsList
