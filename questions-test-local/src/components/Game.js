@@ -5,6 +5,11 @@ import Donate from './Donate'
 import {deucefive} from './QuestionBank'
 import {LongHouse} from './QuestionBank'
 import {SchoolHouse} from './QuestionBank'
+import {Pars} from './QuestionBank'
+import {CHW} from './QuestionBank'
+import {CHE} from './QuestionBank'
+import {Savage} from './QuestionBank'
+import {Bothin} from './QuestionBank'
 
 
 
@@ -30,8 +35,32 @@ import {SchoolHouse} from './QuestionBank'
 
   }
 
-  if(arrNum === 3){
+  if (arrNum === 3) {
     qs = SchoolHouse;
+  }
+
+  if (arrNum === 4 ) {
+    qs = Pars
+  }
+
+  if (arrNum === 5) {
+    qs = Lido
+  }
+
+  if (arrNum === 5) {
+    qs = CHW
+  }
+
+  if (arrNum === 6) {
+    qs = CHE
+  }
+
+  if (arrNum === 7) {
+    qs = Savage
+  }
+
+  if (arrNum === 8) {
+    qs = Bothin
   }
 
   const Click = () => {
