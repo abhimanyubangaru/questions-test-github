@@ -311,5 +311,10 @@ export default{
   deucefive,
   LongHouse,
   SchoolHouse
-
+  Pars,
+  Lido,
+  CHW,
+  CHE,
+  Savage,
+  Bothin,
 }
