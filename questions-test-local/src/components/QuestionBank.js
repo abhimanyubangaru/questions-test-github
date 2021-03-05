@@ -91,11 +91,221 @@ export const SchoolHouse = [
     type: 'photo',
     title: 'a picture inside of 25 House',
   }
-
 ];
 
+export const Pars = [
+  {
+    questionText : 'What is right outside on Pars lawn?',
+    answerOptions : [
+      {answerText: "A tree", isCorrect: false},
+      {answerText: "Mr. William's House", isCorrect: false},
+      {answerText: "A flag pole", isCorrect: true},
+      {answerText: "A gold mine", isCorrect: false},
+    ],
+    media : 'https://www.youtube.com/watch?v=NF7ETbr6EHY',
+    type : 'video',
+    title : "It's JUST hair",
+  },
+  {
+    questionText : 'Who was the best Pars Man last year?',
+    answerOptions : [
+      {answerText: "Tabasco", isCorrect: true},
+      {answerText: "Jay", isCorrect: false},
+      {answerText: "Alex", isCorrect: false},
+      {answerText: "Iain", isCorrect: false},
+    ],
+    media : 'https://www.youtube.com/watch?v=L8Uiv1me9hI',
+    type : 'video',
+    title : "Pear-each Bby gurl",
+  },
+  {
+    questionText : 'The Pars Bruvs partied like the early 2000\'s when they reached a number on the refillable
+      water\-bottle station\. What number was it?',
+    answerOptions : [
+      {answerText: "1960", isCorrect: false},
+      {answerText: "2021", isCorrect: false},
+      {answerText: "680", isCorrect: false},
+      {answerText: "420", isCorrect: true},
+    ],
+    media : 'https://th.bing.com/th/id/OIP.xx45uEpugg2fUBW0BNKJNAHaFo?w=212&h=180&c=7&o=5&dpr=1.25&pid=1.7',
+    type : 'photo',
+    title : "Rut Roh Raggy, we Rucked Rup",
+  },
+  {
+    questionText : 'What was the thing to bind the Pars Bruvs together, forming a much stronger dorm culture?',
+    answerOptions : [
+      {answerText: "Playing video games so no one was lonely", isCorrect: false},
+      {answerText: "Anime Traps", isCorrect: true},
+      {answerText: "Going to the dining hall together and eating as a dorm", isCorrect: false},
+      {answerText: "Understanding everyone\'s flaws and accepting them for who they are", isCorrect: false},
+    ],
+    media : 'https://www.youtube.com/watch?v=2aKtAW4fIqA',
+    type : 'video',
+    title : "<3 those big phat anime tiddies",
+  }
+];
 
+export const HighHouse = [
+  {
+    questionText : 'High House Test 1',
+    answerOptions : [
+      {answerText: "Wrong Answer", isCorrect: false},
+      {answerText: "WRONG", isCorrect: false},
+      {answerText: "Correct", isCorrect: true},
+      {answerText: "Not the correct one", isCorrect: false},
+    ],
+    media : 'https://www.youtube.com/watch?v=NF7ETbr6EHY',
+    type : 'video',
+    title : "It's JUST hair",
+  },
+  {
+    questionText : 'High House Test 2?',
+    answerOptions : [
+      {answerText: "Right answer", isCorrect: true},
+      {answerText: "wrong", isCorrect: false},
+      {answerText: "wrong", isCorrect: false},
+      {answerText: "wrong", isCorrect: false},
+    ],
+    media : 'https://www.youtube.com/watch?v=L8Uiv1me9hI',
+    type : 'video',
+    title : "Pear-each Bby gurl",
+  }
+];
 
+export const Lido = [
+  {
+    questionText : 'Lido Test 1',
+    answerOptions : [
+      {answerText: "Wrong Answer", isCorrect: false},
+      {answerText: "WRONG", isCorrect: false},
+      {answerText: "Correct", isCorrect: true},
+      {answerText: "Not the correct one", isCorrect: false},
+    ],
+    media : 'https://www.youtube.com/watch?v=NF7ETbr6EHY',
+    type : 'video',
+    title : "It's JUST hair",
+  },
+  {
+    questionText : 'Lido Test 2?',
+    answerOptions : [
+      {answerText: "Right answer", isCorrect: true},
+      {answerText: "wrong", isCorrect: false},
+      {answerText: "wrong", isCorrect: false},
+      {answerText: "wrong", isCorrect: false},
+    ],
+    media : 'https://www.youtube.com/watch?v=L8Uiv1me9hI',
+    type : 'video',
+    title : "Pear-each Bby gurl",
+  }
+];
+
+export const CHW = [
+  {
+    questionText : 'CHW Test 1',
+    answerOptions : [
+      {answerText: "Wrong Answer", isCorrect: false},
+      {answerText: "WRONG", isCorrect: false},
+      {answerText: "Correct", isCorrect: true},
+      {answerText: "Not the correct one", isCorrect: false},
+    ],
+    media : 'https://www.youtube.com/watch?v=NF7ETbr6EHY',
+    type : 'video',
+    title : "It's JUST hair",
+  },
+  {
+    questionText : 'CHW Test 2?',
+    answerOptions : [
+      {answerText: "Right answer", isCorrect: true},
+      {answerText: "wrong", isCorrect: false},
+      {answerText: "wrong", isCorrect: false},
+      {answerText: "wrong", isCorrect: false},
+    ],
+    media : 'https://www.youtube.com/watch?v=L8Uiv1me9hI',
+    type : 'video',
+    title : "Pear-each Bby gurl",
+  }
+];
+
+export const CHE = [
+  {
+    questionText : 'CHW Test 1',
+    answerOptions : [
+      {answerText: "Wrong Answer", isCorrect: false},
+      {answerText: "WRONG", isCorrect: false},
+      {answerText: "Correct", isCorrect: true},
+      {answerText: "Not the correct one", isCorrect: false},
+    ],
+    media : 'https://www.youtube.com/watch?v=NF7ETbr6EHY',
+    type : 'video',
+    title : "It's JUST hair",
+  },
+  {
+    questionText : 'CHE Test 2?',
+    answerOptions : [
+      {answerText: "Right answer", isCorrect: true},
+      {answerText: "wrong", isCorrect: false},
+      {answerText: "wrong", isCorrect: false},
+      {answerText: "wrong", isCorrect: false},
+    ],
+    media : 'https://www.youtube.com/watch?v=L8Uiv1me9hI',
+    type : 'video',
+    title : "Pear-each Bby gurl",
+  }
+];
+
+export const Savage = [
+  {
+    questionText : 'Savage Test 1',
+    answerOptions : [
+      {answerText: "Wrong Answer", isCorrect: false},
+      {answerText: "WRONG", isCorrect: false},
+      {answerText: "Correct", isCorrect: true},
+      {answerText: "Not the correct one", isCorrect: false},
+    ],
+    media : 'https://www.youtube.com/watch?v=NF7ETbr6EHY',
+    type : 'video',
+    title : "It's JUST hair",
+  },
+  {
+    questionText : 'Savage Test 2?',
+    answerOptions : [
+      {answerText: "Right answer", isCorrect: true},
+      {answerText: "wrong", isCorrect: false},
+      {answerText: "wrong", isCorrect: false},
+      {answerText: "wrong", isCorrect: false},
+    ],
+    media : 'https://www.youtube.com/watch?v=L8Uiv1me9hI',
+    type : 'video',
+    title : "Pear-each Bby gurl",
+  }
+];
+
+export const Bothin = [
+  {
+    questionText : 'Bothin Test 1',
+    answerOptions : [
+      {answerText: "Wrong Answer", isCorrect: false},
+      {answerText: "WRONG", isCorrect: false},
+      {answerText: "Correct", isCorrect: true},
+      {answerText: "Not the correct one", isCorrect: false},
+    ],
+    media : 'https://www.youtube.com/watch?v=NF7ETbr6EHY',
+    type : 'video',
+    title : "It's JUST hair",
+  },
+  {
+    questionText : 'Bothin Test 2?',
+    answerOptions : [
+      {answerText: "Right answer", isCorrect: true},
+      {answerText: "wrong", isCorrect: false},
+      {answerText: "wrong", isCorrect: false},
+      {answerText: "wrong", isCorrect: false},
+    ],
+    media : 'https://www.youtube.com/watch?v=L8Uiv1me9hI',
+    type : 'video',
+    title : "Pear-each Bby gurl",
+  }
+];
 
 export default{
   deucefive,

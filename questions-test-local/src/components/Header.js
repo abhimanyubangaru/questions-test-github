@@ -11,7 +11,6 @@ const Header = (props) => {
 
 Header.defaultProps = {
   title: 'Cate School Trivia',
-
 }
 
 Header.propTypes = {
