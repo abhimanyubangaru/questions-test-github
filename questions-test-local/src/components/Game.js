@@ -2,10 +2,10 @@ import Header from './Header'
 import Question from './Question'
 import React, { useState } from 'react';
 import Donate from './Donate'
-import {deucefive} from './QuestionBank'
+import {TwentyFiveHouse} from './QuestionBank'
 import {LongHouse} from './QuestionBank'
 import {SchoolHouse} from './QuestionBank'
-import {Pars} from './QuestionBank'
+import {Parsonage} from './QuestionBank'
 import {CHW} from './QuestionBank'
 import {CHE} from './QuestionBank'
 import {Savage} from './QuestionBank'
@@ -17,31 +17,33 @@ import {Lido} from './QuestionBank'
 
   const Game = (props) => {
 
-  const [arrNum,setArrNum] = useState(0);
+  const [arrNum,setArrNum] = useState("");
   const [currentQuestion, setCurrentQuestion] = useState(0);
 
 
 
 
-    var qs = deucefive;
+    var qs = TwentyFiveHouse;
 
     //the next two if statements take care of which array to take the questions from
     if (arrNum === 1) {
-        qs = deucefive;
+        qs = TwentyFiveHouse;
 
   }
+
+
 
   if (arrNum === 2) {
-      qs = LongHouse;
-
+    qs = LongHouse;
   }
+
 
   if (arrNum === 3) {
     qs = SchoolHouse;
   }
 
   if (arrNum === 4 ) {
-    qs = Pars;
+    qs = Parsonage;
   }
 
   if (arrNum === 5) {
@@ -77,7 +79,7 @@ import {Lido} from './QuestionBank'
   }
 
 
-    console.log(qs);
+
 
 
     const totalLength = qs.length;

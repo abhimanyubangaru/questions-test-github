@@ -1,10 +1,10 @@
 import React from 'react'
 
 export const DormsList = [
-    "25House",
+    "TwentyFiveHouse",
     "LongHouse",
     "SchoolHouse",
-    "Pars",
+    "Parsonage",
     "HighHouse",
     "Lido",
     "CHW",

@@ -70,7 +70,7 @@ import DormsList from './DormsList'
 
           {DormsList.map((dorm,index) => (
             <button
-              value = {index + 1}
+              value = {dorm}
               className="dormlist"
               onClick={() =>  clickDormButton(index)}>
               {dorm}

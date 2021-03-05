@@ -1,4 +1,4 @@
-export const deucefive = [ // first array
+export const TwentyFiveHouse = [ // first array
   { //first question
     questionText : 'When was I a freshman?',
     answerOptions : [
@@ -93,7 +93,7 @@ export const SchoolHouse = [
   }
 ];
 
-export const Pars = [
+export const Parsonage = [
   {
     questionText : 'What is right outside on Pars lawn?',
     answerOptions : [
@@ -307,16 +307,6 @@ export const Bothin = [
 ];
 
 export default{
-  deucefive,
-  LongHouse,
-  SchoolHouse,
-  Pars,
-  HighHouse,
-  Lido,
-  CHW,
-  CHE,
-  Savage,
-  Bothin,
-
+  
 
 }
