@@ -306,7 +306,5 @@ export const Bothin = [
   }
 ];
 
-export default{
-  
-
+export default {
 }

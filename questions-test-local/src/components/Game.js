@@ -33,42 +33,42 @@ import {Lido} from './QuestionBank'
 
 
 
-  if (arrNum === 2) {
-    qs = LongHouse;
-  }
+      if (arrNum === 2) {
+        qs = LongHouse;
+      }
 
 
-  if (arrNum === 3) {
-    qs = SchoolHouse;
-  }
+      if (arrNum === 3) {
+        qs = SchoolHouse;
+      }
 
-  if (arrNum === 4 ) {
-    qs = Parsonage;
-  }
+      if (arrNum === 4 ) {
+        qs = Parsonage;
+      }
 
-  if (arrNum === 5) {
-    qs = HighHouse;
-  }
+      if (arrNum === 5) {
+        qs = HighHouse;
+      }
 
-  if (arrNum === 6) {
-    qs = Lido;
-  }
+      if (arrNum === 6) {
+        qs = Lido;
+      }
 
-  if (arrNum === 7) {
-    qs = CHW;
-  }
+      if (arrNum === 7) {
+        qs = CHW;
+      }
 
-  if (arrNum === 8) {
-    qs = CHE;
-  }
+      if (arrNum === 8) {
+        qs = CHE;
+      }
 
-  if (arrNum === 9) {
-    qs = Savage;
-  }
+      if (arrNum === 9) {
+        qs = Savage;
+      }
 
-  if(arrNum === 10){
-    qs = Bothin;
-  }
+      if(arrNum === 10){
+        qs = Bothin;
+      }
 
 
 
