@@ -118,9 +118,11 @@ export const Pars = [
     type : 'video',
     title : "Pear-each Bby gurl",
   },
+
   {
-    questionText : 'The Pars Bruvs partied like the early 2000\'s when they reached a number on the refillable
-      water\-bottle station\. What number was it?',
+    questionText : 'The Pars Bruvs partied like the early 2000\s ' +
+      'when they reached a number on the refillable ' +
+      'water bottle station. What number was it?',
     answerOptions : [
       {answerText: "1960", isCorrect: false},
       {answerText: "2021", isCorrect: false},
@@ -131,6 +133,7 @@ export const Pars = [
     type : 'photo',
     title : "Rut Roh Raggy, we Rucked Rup",
   },
+
   {
     questionText : 'What was the thing to bind the Pars Bruvs together, forming a much stronger dorm culture?',
     answerOptions : [
@@ -310,7 +313,7 @@ export const Bothin = [
 export default{
   deucefive,
   LongHouse,
-  SchoolHouse
+  SchoolHouse,
   Pars,
   Lido,
   CHW,
