@@ -18,8 +18,6 @@ import DormsList from './DormsList'
 
     }
 
-
-
     // to reset the score for every question and then move onto the next question
     const setZero = () => {
       setScore(0);
@@ -61,6 +59,7 @@ import DormsList from './DormsList'
         console.log(score);
       };
 
+
       const dormList = <>
       {DormsList.map((dorm,index) => (
         <button
@@ -73,10 +72,6 @@ import DormsList from './DormsList'
       ))}
 
         </>
-
-
-
-
 
 
         return (
@@ -95,17 +90,12 @@ import DormsList from './DormsList'
             <br/>
 
 
-
-
-
-
             {score > 0 && <Donate media= {props.media} title={props.title}/>}
 
                 {/*we only want to show the next button if there is a next question. This takes care of that problem*/}
             <h3>{props.questionNumber+1}. {props.questionText}
              {props.questionNumber < props.final - 1 && element}
             </h3>
-
 
 
                 {/*this reads all the answeroptions and maps them into buttons which different values and onclick functions. This helps to automate the process*/}
