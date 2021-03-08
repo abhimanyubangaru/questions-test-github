@@ -9,7 +9,7 @@ import DormsList from './DormsList'
   const Question = (props) => {
     const [score, setScore] = useState(0);
     const[hitLast,setHitLast] = useState(false);
-
+    const[showDormList,setShowDormList] = useState(false);
 
     const clickDormButton = (index) => {
       props.dormButton(parseInt(index) + 1);
@@ -35,6 +35,12 @@ import DormsList from './DormsList'
                      </Button> ;
 
 
+    const showingDormList = <Button
+                          onClick={()=> setShowDormList(!showDormList)}
+                          text = "Toggle Dorm List"
+                          >
+                        </Button>
+
 
 
       const isOptionCorrect = (isCorrect) => {
@@ -55,6 +61,19 @@ import DormsList from './DormsList'
         console.log(score);
       };
 
+      const dormList = <>
+      {DormsList.map((dorm,index) => (
+        <button
+          value = {dorm}
+          className="dormlist"
+          onClick={() =>  clickDormButton(index)}>
+          {dorm}
+        </button>
+
+      ))}
+
+        </>
+
 
 
 
@@ -68,17 +87,14 @@ import DormsList from './DormsList'
                 {/*props from the app.js changes the array from the question bank */}
           {/* Used .map to make buttons for each of the dorms and gave unique index points*/}
 
-          {DormsList.map((dorm,index) => (
-            <button
-              value = {dorm}
-              className="dormlist"
-              onClick={() =>  clickDormButton(index)}>
-              {dorm}
-            </button>
+          {showingDormList}
+          <br/>
+          {showDormList && dormList}
 
-          ))}
             <br/>
             <br/>
+
+
 
 
 
