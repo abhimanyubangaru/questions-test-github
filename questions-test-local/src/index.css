@@ -87,7 +87,7 @@ body {
 
 .dormlist {
   display: inline-flex;
-  background: purple;
+  background: mediumpurple;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -99,6 +99,10 @@ body {
   font-family: inherit;
   max-height: 100px;
   style: none;
+}
+
+.dormlist:hover{
+  background: green;
 }
 
 
