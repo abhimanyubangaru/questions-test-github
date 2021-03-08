@@ -63,6 +63,7 @@ body {
 }
 .btn:hover{
   background: gold;
+  color:black;
 }
 
 .choices {
