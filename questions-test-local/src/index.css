@@ -51,21 +51,23 @@ body {
 
 .btn {
   display: inline-block;
-  background: #000;
-  color: #fff;
+  color: white;
+  background: darkblue;
   border: none;
   padding: 10px 20px;
   margin: 5px;
   border-radius: 5px;
   cursor: pointer;
-  text-decoration: none;
   font-size: 15px;
   font-family: inherit;
+}
+.btn:hover{
+  background: gold;
 }
 
 .choices {
   display: inline-block;
-  background: darkblue;
+  background: silver;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -76,6 +78,12 @@ body {
   font-size: 10px;
   font-family: inherit;
 }
+
+.choices:hover{
+  background: darkblue;
+}
+
+
 
 .dormlist {
   display: inline-flex;
@@ -90,6 +98,7 @@ body {
   font-size: 10px;
   font-family: inherit;
   max-height: 100px;
+  style: none;
 }
 
 
