@@ -3,6 +3,7 @@ import React from 'react'
 const Welcome = () => {
   return (
     <div>
+    {/*
     <h1>
       Welcome to the Cate Trivia Website!
     </h1>
@@ -16,6 +17,13 @@ const Welcome = () => {
         <br/>
 
       Have fun!
+      </body>
+      */}
+
+      <body>
+        <h1>Welcome to the Cate Trivia Website</h1>
+        <h2>This is h2 tag</h2>
+        <p>This is a paragraph tag</p>
       </body>
     </div>
   )
