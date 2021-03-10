@@ -30,7 +30,7 @@ import DormsList from './DormsList'
                        onClick= {() => setZero()}
                        text = "Next"
                        color = "darkblue">
-                     </Button> ;
+                     </Button> ;  
 
 
     const showingDormList = <Button

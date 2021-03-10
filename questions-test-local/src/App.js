@@ -9,8 +9,6 @@ function App(props) {
   // this is the template for any routing component
 //    <Route path="/about" component={About}/>
 
-  // these control the current question, the current array from which the questions are from
-  const [currentQuestion, setCurrentQuestion] = useState(0);
 
 
   return (

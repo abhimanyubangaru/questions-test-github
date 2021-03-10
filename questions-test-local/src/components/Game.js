@@ -29,8 +29,7 @@ import {Lido} from './QuestionBank'
     if (arrNum === 1) {
         qs = TwentyFiveHouse;
 
-  }
-
+    }
 
 
       if (arrNum === 2) {
@@ -93,21 +92,22 @@ import {Lido} from './QuestionBank'
               {() => setCurrentQuestion(0)}
 
               <Header />
+
               {currentQuestion == totalLength - 1 && <h2> FINAL QUESTION</h2>}
               {currentQuestion < totalLength &&
-              <Question
-              media= {qs[currentQuestion].media}
-              questionNumber = {currentQuestion}
-              Click={Click}
-              onClick={() => setCurrentQuestion(0)}
-              type = {qs[currentQuestion].type}
-              title = {qs[currentQuestion].title}
-              questionText={qs[currentQuestion].questionText}
-              answerOptions= {qs[currentQuestion].answerOptions}
-              final = {totalLength}
-              dormButton = {((index) => setArrNum(index))}
-              />
-            }
+                <Question
+                media= {qs[currentQuestion].media}
+                questionNumber = {currentQuestion}
+                Click={Click}
+                onClick={() => setCurrentQuestion(0)}
+                type = {qs[currentQuestion].type}
+                title = {qs[currentQuestion].title}
+                questionText={qs[currentQuestion].questionText}
+                answerOptions= {qs[currentQuestion].answerOptions}
+                final = {totalLength}
+                dormButton = {((index) => setArrNum(index))}
+                />
+              }
 
 
 
