@@ -11,13 +11,9 @@ body {
 }
 
 .container {
-  max-width: 1000px;
-  margin: 10px auto;
+
   overflow: auto;
   min-height: 300px;
-  border: 1px solid dodgerblue;
-  padding: 30px;
-  border-radius: 10px;
 }
 
 .donate {
