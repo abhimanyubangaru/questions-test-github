@@ -102,9 +102,9 @@ export const Parsonage = [
       {answerText: "A flag pole", isCorrect: true},
       {answerText: "A gold mine", isCorrect: false},
     ],
-    media : 'https://www.youtube.com/watch?v=NF7ETbr6EHY',
+    media : 'https://www.youtube.com/watch?v=Q1QPXyebhiY&t=242s',
     type : 'video',
-    title : "It's JUST hair",
+    title : "Big Head",
   },
   {
     questionText : 'Who was the best Pars Man last year?',
@@ -114,34 +114,11 @@ export const Parsonage = [
       {answerText: "Alex", isCorrect: false},
       {answerText: "Iain", isCorrect: false},
     ],
-    media : 'https://www.youtube.com/watch?v=L8Uiv1me9hI',
+    media : 'https://www.youtube.com/watch?v=Q1QPXyebhiY&t=242s',
     type : 'video',
-    title : "Pear-each Bby gurl",
+    title : "Big Head",
   },
-  {
-    questionText : 'The Pars Bruvs partied like the early 2000\'s when they reached a number on the refillable water-bottle station. What number was it?',
-    answerOptions : [
-      {answerText: "1960", isCorrect: false},
-      {answerText: "2021", isCorrect: false},
-      {answerText: "680", isCorrect: false},
-      {answerText: "420", isCorrect: true},
-    ],
-    media : 'https://th.bing.com/th/id/OIP.xx45uEpugg2fUBW0BNKJNAHaFo?w=212&h=180&c=7&o=5&dpr=1.25&pid=1.7',
-    type : 'photo',
-    title : "Rut Roh Raggy, we Rucked Rup",
-  },
-  {
-    questionText : 'What was the thing to bind the Pars Bruvs together, forming a much stronger dorm culture?',
-    answerOptions : [
-      {answerText: "Playing video games so no one was lonely", isCorrect: false},
-      {answerText: "Anime Traps", isCorrect: true},
-      {answerText: "Going to the dining hall together and eating as a dorm", isCorrect: false},
-      {answerText: "Understanding everyone\'s flaws and accepting them for who they are", isCorrect: false},
-    ],
-    media : 'https://www.youtube.com/watch?v=2aKtAW4fIqA',
-    type : 'video',
-    title : "<3 those big phat anime tiddies",
-  }
+
 ];
 
 export const HighHouse = [
@@ -153,9 +130,9 @@ export const HighHouse = [
       {answerText: "Correct", isCorrect: true},
       {answerText: "Not the correct one", isCorrect: false},
     ],
-    media : 'https://www.youtube.com/watch?v=NF7ETbr6EHY',
+    media : 'https://www.youtube.com/watch?v=Q1QPXyebhiY&t=242s',
     type : 'video',
-    title : "It's JUST hair",
+    title : "Big Head",
   },
   {
     questionText : 'High House Test 2?',
@@ -165,9 +142,9 @@ export const HighHouse = [
       {answerText: "wrong", isCorrect: false},
       {answerText: "wrong", isCorrect: false},
     ],
-    media : 'https://www.youtube.com/watch?v=L8Uiv1me9hI',
+    media : 'https://www.youtube.com/watch?v=Q1QPXyebhiY&t=242s',
     type : 'video',
-    title : "Pear-each Bby gurl",
+    title : "Big Head",
   }
 ];
 
@@ -180,9 +157,9 @@ export const Lido = [
       {answerText: "Correct", isCorrect: true},
       {answerText: "Not the correct one", isCorrect: false},
     ],
-    media : 'https://www.youtube.com/watch?v=NF7ETbr6EHY',
+    media : 'https://www.youtube.com/watch?v=Q1QPXyebhiY&t=242s',
     type : 'video',
-    title : "It's JUST hair",
+    title : "Big Head",
   },
   {
     questionText : 'Lido Test 2?',
@@ -192,9 +169,9 @@ export const Lido = [
       {answerText: "wrong", isCorrect: false},
       {answerText: "wrong", isCorrect: false},
     ],
-    media : 'https://www.youtube.com/watch?v=L8Uiv1me9hI',
+    media : 'https://www.youtube.com/watch?v=Q1QPXyebhiY&t=242s',
     type : 'video',
-    title : "Pear-each Bby gurl",
+    title : "Big Head",
   }
 ];
 
@@ -219,9 +196,9 @@ export const CHW = [
       {answerText: "wrong", isCorrect: false},
       {answerText: "wrong", isCorrect: false},
     ],
-    media : 'https://www.youtube.com/watch?v=L8Uiv1me9hI',
+    media : 'https://www.youtube.com/watch?v=Q1QPXyebhiY&t=242s',
     type : 'video',
-    title : "Pear-each Bby gurl",
+    title : "Big Head",
   }
 ];
 
@@ -234,9 +211,9 @@ export const CHE = [
       {answerText: "Correct", isCorrect: true},
       {answerText: "Not the correct one", isCorrect: false},
     ],
-    media : 'https://www.youtube.com/watch?v=NF7ETbr6EHY',
+    media : 'https://www.youtube.com/watch?v=Q1QPXyebhiY&t=242s',
     type : 'video',
-    title : "It's JUST hair",
+    title : "Big Head",
   },
   {
     questionText : 'CHE Test 2?',
@@ -246,9 +223,9 @@ export const CHE = [
       {answerText: "wrong", isCorrect: false},
       {answerText: "wrong", isCorrect: false},
     ],
-    media : 'https://www.youtube.com/watch?v=L8Uiv1me9hI',
+    media : 'https://www.youtube.com/watch?v=Q1QPXyebhiY&t=242s',
     type : 'video',
-    title : "Pear-each Bby gurl",
+    title : "Big Head",
   }
 ];
 
@@ -261,9 +238,9 @@ export const Savage = [
       {answerText: "Correct", isCorrect: true},
       {answerText: "Not the correct one", isCorrect: false},
     ],
-    media : 'https://www.youtube.com/watch?v=NF7ETbr6EHY',
+    media : 'https://www.youtube.com/watch?v=Q1QPXyebhiY&t=242s',
     type : 'video',
-    title : "It's JUST hair",
+    title : "Big Head",
   },
   {
     questionText : 'Savage Test 2?',
@@ -273,9 +250,9 @@ export const Savage = [
       {answerText: "wrong", isCorrect: false},
       {answerText: "wrong", isCorrect: false},
     ],
-    media : 'https://www.youtube.com/watch?v=L8Uiv1me9hI',
+    media : 'https://www.youtube.com/watch?v=Q1QPXyebhiY&t=242s',
     type : 'video',
-    title : "Pear-each Bby gurl",
+    title : "Big Head",
   }
 ];
 
@@ -288,9 +265,9 @@ export const Bothin = [
       {answerText: "Correct", isCorrect: true},
       {answerText: "Not the correct one", isCorrect: false},
     ],
-    media : 'https://www.youtube.com/watch?v=NF7ETbr6EHY',
+    media : 'https://www.youtube.com/watch?v=Q1QPXyebhiY&t=242s',
     type : 'video',
-    title : "It's JUST hair",
+    title : "Big Head",
   },
   {
     questionText : 'Bothin Test 2?',
@@ -300,9 +277,9 @@ export const Bothin = [
       {answerText: "wrong", isCorrect: false},
       {answerText: "wrong", isCorrect: false},
     ],
-    media : 'https://www.youtube.com/watch?v=L8Uiv1me9hI',
+    media : 'https://www.youtube.com/watch?v=Q1QPXyebhiY&t=242s',
     type : 'video',
-    title : "Pear-each Bby gurl",
+    title : "Big Head",
   }
 ];
 
