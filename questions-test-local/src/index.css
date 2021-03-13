@@ -10,10 +10,21 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.container {
 
+
+.container {
+  align-content: center;
   overflow: auto;
-  min-height: 300px;
+  min-height: 1000px;
+}
+
+.WelcomeBox {
+  background: gray;
+  color: white;
+  margin: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid steelblue;
 }
 
 .donate {
@@ -119,19 +130,6 @@ body {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-}
-
-.btn:focus {
-  outline: none;
-}
-
-.btn:active {
-  transform: scale(0.98);
-}
-
-.btn-block {
-  display: block;
-  width: 100%;
 }
 
 

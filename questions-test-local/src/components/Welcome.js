@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import ReactPlayer from 'react-player';
 
 const Welcome = () => {
-  return (
-    <div>
 
+  return (
+    <div className = "Welcome">
+      
+      <div className="WelcomeBox">
       <body>
         <h1>
           Welcome to the Cate Trivia Website!
@@ -22,8 +25,10 @@ const Welcome = () => {
 
       Have fun!
       </body>
+      </div>
     </div>
   )
 }
+
 
 export default Welcome
