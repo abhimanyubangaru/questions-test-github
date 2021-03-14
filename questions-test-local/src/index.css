@@ -15,7 +15,8 @@ body {
 .container {
   align-content: center;
   overflow: auto;
-
+  background: url('https://images1.privateschoolreview.com/photo/1122x864/2000/1624/cate-school-bvIyRbE.jpg');
+  background-size: cover;
 }
 
 .WelcomeBox {
