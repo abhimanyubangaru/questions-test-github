@@ -28,6 +28,13 @@ body {
   border: 1px solid steelblue;
 }
 
+#video {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+
+}
+
 .donate {
   position: relative;
   max-width: 600px;
