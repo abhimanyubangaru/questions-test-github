@@ -21,6 +21,7 @@ body {
 .WelcomeBox {
   background: gray;
   color: white;
+  outline: black;
   margin: 40px;
   padding: 10px;
   border-radius: 10px;
