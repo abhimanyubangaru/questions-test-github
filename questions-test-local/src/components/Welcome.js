@@ -4,13 +4,12 @@ import ReactPlayer from 'react-player';
 const Welcome = () => {
 
   return (
-    <div className = "Welcome">
+    <div className = "Welcome-wrapper">
 
       {/* https://medium.com/@infinitysanctum8/how-to-add-a-video-background-in-react-js-8c31e0bc4f42*/}
       {/* The link above is one of the tutorials I followed to get this background video to work, but it won't for some reason. */}
-        <video autoPlay loop muted id='video'>
-          <source src='https://www.youtube.com/watch?v=PYFltdGJ-Rc' type='video/mp4'/>
-        </video>
+
+      <ReactPlayer playing loop id="video" url='https://player.vimeo.com/video/258158638' />
 
         
       <div className="WelcomeBox">
