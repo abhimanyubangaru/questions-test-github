@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-
+import stressedVideo_final from "./video/stressedVideo_final.mp4"
 const Welcome = () => {
-
+  const vidSource = "https://www.w3schools.com/tags/movie.mp4"
   return (
     <div className = "Welcome-wrapper">
 
@@ -10,13 +10,16 @@ const Welcome = () => {
       {/* The link above is one of the tutorials I followed to get this background video to work, but it won't for some reason. */}
 
 
-      <video id="video" loop autoplay>
-        <source src="http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4"/>
-        <source src="http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/ogg"/>
-        Your browser does not support the video tag.
+      <video
+        autoPlay
+        loop
+        muted
+        id="video"
+        >
+        <source src={vidSource} type= 'video/mp4'/>
       </video>
 
-        
+
       <div className="WelcomeBox">
       <body>
         <h1>

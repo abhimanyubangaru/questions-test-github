@@ -21,13 +21,14 @@ body {
 
 
 .WelcomeBox {
-  background: gray;
+
   color: white;
   outline: black;
   margin: 40px;
   padding: 10px;
   border-radius: 10px;
   border: 1px solid steelblue;
+  
 }
 
 .Welcome-wrapper {
@@ -36,10 +37,11 @@ body {
 #video {
   height: 100%;
   width: 100%;
-  float: left;
+  object-fit: cover;
+
+  z-index: -1;
   top: 0;
-  padding: none;
-  position: fixed; 
+  position: fixed;
 
 }
 
