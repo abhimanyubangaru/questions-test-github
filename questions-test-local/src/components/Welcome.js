@@ -9,7 +9,12 @@ const Welcome = () => {
       {/* https://medium.com/@infinitysanctum8/how-to-add-a-video-background-in-react-js-8c31e0bc4f42*/}
       {/* The link above is one of the tutorials I followed to get this background video to work, but it won't for some reason. */}
 
-      <ReactPlayer playing loop id="video" url='https://player.vimeo.com/video/258158638'/>
+
+      <video id="video" loop autoplay>
+        <source src="http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4"/>
+        <source src="http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/ogg"/>
+        Your browser does not support the video tag.
+      </video>
 
         
       <div className="WelcomeBox">
