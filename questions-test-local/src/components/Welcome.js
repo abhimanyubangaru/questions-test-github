@@ -11,6 +11,8 @@ const Welcome = () => {
         <video autoPlay loop muted id='video'>
           <source src='https://www.youtube.com/watch?v=PYFltdGJ-Rc' type='video/mp4'/>
         </video>
+
+        
       <div className="WelcomeBox">
       <body>
         <h1>
