@@ -2,8 +2,8 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 20;
+  padding: 10;
 }
 
 body {
@@ -18,6 +18,8 @@ body {
   background: url('https://images1.privateschoolreview.com/photo/1122x864/2000/1624/cate-school-bvIyRbE.jpg');
   background-size: cover;
 }
+
+
 
 .WelcomeBox {
   background: gray;
@@ -78,8 +80,9 @@ body {
   font-family: inherit;
 }
 .btn:hover{
-  background: gold;
-  color:black;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
 }
 
 .choices {
@@ -119,7 +122,10 @@ body {
 }
 
 .dormlist:hover{
-  background: green;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+
 }
 
 
