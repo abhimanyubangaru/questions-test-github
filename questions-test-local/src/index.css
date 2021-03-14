@@ -8,7 +8,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-
+  margin: 0px;
+  padding: 0px;
 }
 
 
@@ -25,7 +26,7 @@ body {
 .WelcomeBox {
 
   color: steelblue;
-  outline: black;
+  outline: 2px black;
   margin: 40px;
   padding: 10px;
   border-radius: 10px;
@@ -37,8 +38,11 @@ body {
 
   height: 100%;
   width: 100%;
-  object-fit: cover;
 
+
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
   z-index: -1;
   top: 0;
   position: fixed;
