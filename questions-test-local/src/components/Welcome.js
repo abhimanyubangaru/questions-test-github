@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-import stressedVideo_final from "./video/stressedVideo_final.mp4"
+
 const Welcome = () => {
   const vidSource = "https://www.w3schools.com/tags/movie.mp4"
   return (
