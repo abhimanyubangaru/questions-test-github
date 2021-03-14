@@ -9,7 +9,7 @@ const Welcome = () => {
       {/* https://medium.com/@infinitysanctum8/how-to-add-a-video-background-in-react-js-8c31e0bc4f42*/}
       {/* The link above is one of the tutorials I followed to get this background video to work, but it won't for some reason. */}
 
-      <ReactPlayer playing loop id="video" url='https://player.vimeo.com/video/258158638' />
+      <ReactPlayer playing loop id="video" url='https://player.vimeo.com/video/258158638'/>
 
         
       <div className="WelcomeBox">
