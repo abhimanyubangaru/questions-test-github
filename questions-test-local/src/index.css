@@ -2,12 +2,13 @@
 
 * {
   box-sizing: border-box;
-  margin: 20;
-  padding: 10;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+
 }
 
 
@@ -155,6 +156,7 @@ body {
   min-height: 10vh;
   background: darkblue;
   color:white;
+
 }
 
 
