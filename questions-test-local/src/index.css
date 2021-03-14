@@ -10,10 +10,30 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.container {
 
+
+.container {
+  align-content: center;
   overflow: auto;
-  min-height: 300px;
+  background: url('https://images1.privateschoolreview.com/photo/1122x864/2000/1624/cate-school-bvIyRbE.jpg');
+  background-size: cover;
+}
+
+.WelcomeBox {
+  background: gray;
+  color: white;
+  outline: black;
+  margin: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid steelblue;
+}
+
+#video {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+
 }
 
 .donate {
@@ -119,19 +139,6 @@ body {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-}
-
-.btn:focus {
-  outline: none;
-}
-
-.btn:active {
-  transform: scale(0.98);
-}
-
-.btn-block {
-  display: block;
-  width: 100%;
 }
 
 

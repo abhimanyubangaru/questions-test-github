@@ -30,7 +30,7 @@ import DormsList from './DormsList'
                        onClick= {() => setZero()}
                        text = "Next"
                        color = "darkblue">
-                     </Button> ;  
+                     </Button> ;
 
 
     const showingDormList = <Button
@@ -79,7 +79,7 @@ import DormsList from './DormsList'
 
 
           <div className='question-section'>
-                {/*props from the app.js changes the array from the question bank */}
+          {/*props from the app.js changes the array from the question bank */}
           {/* Used .map to make buttons for each of the dorms and gave unique index points*/}
 
           {showingDormList}
