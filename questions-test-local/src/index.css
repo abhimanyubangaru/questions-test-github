@@ -13,31 +13,43 @@ body {
 
 
 .container {
-  align-content: center;
+
   overflow: auto;
-  background-size: cover;
+
+
 }
 
 
 
 .WelcomeBox {
 
-  color: white;
+  color: steelblue;
   outline: black;
   margin: 40px;
   padding: 10px;
   border-radius: 10px;
   border: 1px solid steelblue;
-  
+
 }
 
 .Welcome-wrapper {
-  position: relative;
-}
-#video {
+
   height: 100%;
   width: 100%;
   object-fit: cover;
+
+  z-index: -1;
+  top: 0;
+  position: fixed;
+  background-color: black;
+
+}
+#video {
+
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display:flex;
 
   z-index: -1;
   top: 0;

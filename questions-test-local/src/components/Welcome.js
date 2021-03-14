@@ -2,23 +2,19 @@ import React from 'react';
 import ReactPlayer from 'react-player';
 
 const Welcome = () => {
+  // <video
+  //   autoPlay
+  //   loop
+  //   muted
+  //   id="video"
+  //   >
+  //   <source src={vidSource} type= 'video/mp4'/>
+  // </video>
+  // /        <ReactPlayer url="https://vimeo.com/258158638"/>  <iframe src="https://player.vimeo.com/video/258158638" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+// <p><a href="https://vimeo.com/258158638">Welcome to Cate!</a> from <a href="https://vimeo.com/cateschool">Cate School</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
   const vidSource = "https://www.w3schools.com/tags/movie.mp4"
   return (
-    <div className = "Welcome-wrapper">
-
-      {/* https://medium.com/@infinitysanctum8/how-to-add-a-video-background-in-react-js-8c31e0bc4f42*/}
-      {/* The link above is one of the tutorials I followed to get this background video to work, but it won't for some reason. */}
-
-
-      <video
-        autoPlay
-        loop
-        muted
-        id="video"
-        >
-        <source src={vidSource} type= 'video/mp4'/>
-      </video>
-
+    <div className="welcome">
 
       <div className="WelcomeBox">
       <body>
@@ -40,6 +36,22 @@ const Welcome = () => {
       Have fun!
       </body>
       </div>
+
+      <div className = "Welcome-wrapper">
+
+        {/* https://medium.com/@infinitysanctum8/how-to-add-a-video-background-in-react-js-8c31e0bc4f42*/}
+        {/* The link above is one of the tutorials I followed to get this background video to work, but it won't for some reason. */}
+
+
+
+
+        <iframe src="https://player.vimeo.com/video/258158638?autoplay=1&loop=1&autopause=0&controls=0" id="video"  allow="autoplay"  allowfullscreen></iframe>
+
+
+
+
+        </div>
+
     </div>
   )
 }
