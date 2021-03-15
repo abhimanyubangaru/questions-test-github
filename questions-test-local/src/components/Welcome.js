@@ -37,7 +37,13 @@ const Welcome = () => {
       </body>
       </div>
 
-      <div className = "Welcome-wrapper">
+      <div className = "Welcome-wrapper"
+            style={{
+              
+              paddingBottom: "56.25%" /* 16:9 */,
+              paddingTop: 25,
+              height: 0
+            }}>
 
         {/* https://medium.com/@infinitysanctum8/how-to-add-a-video-background-in-react-js-8c31e0bc4f42*/}
         {/* The link above is one of the tutorials I followed to get this background video to work, but it won't for some reason. */}
