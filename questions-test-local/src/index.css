@@ -59,6 +59,16 @@ body {
 
 }
 
+
+.Game{
+  background: url("https://keyt.b-cdn.net/2020/07/Cate-scaled.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 900px;
+}
+
 .donate {
   position: relative;
   max-width: 600px;
