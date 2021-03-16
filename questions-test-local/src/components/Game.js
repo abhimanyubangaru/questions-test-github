@@ -12,6 +12,7 @@ import {Savage} from './QuestionBank'
 import {Bothin} from './QuestionBank'
 import {HighHouse} from './QuestionBank'
 import {Lido} from './QuestionBank'
+import '../index.css'
 
 
 
@@ -88,7 +89,6 @@ import {Lido} from './QuestionBank'
           <div className="Game">
             {arrNum}
             <p>
-
               {() => setCurrentQuestion(0)}
 
               <Header />
@@ -96,28 +96,25 @@ import {Lido} from './QuestionBank'
               {currentQuestion == totalLength - 1 && <h2> FINAL QUESTION</h2>}
               {currentQuestion < totalLength &&
                 <Question
-                media= {qs[currentQuestion].media}
-                questionNumber = {currentQuestion}
-                Click={Click}
-                onClick={() => setCurrentQuestion(0)}
-                type = {qs[currentQuestion].type}
-                title = {qs[currentQuestion].title}
-                questionText={qs[currentQuestion].questionText}
-                answerOptions= {qs[currentQuestion].answerOptions}
-                final = {totalLength}
-                dormButton = {((index) => setArrNum(index))}
+                  media= {qs[currentQuestion].media}
+                  questionNumber = {currentQuestion}
+                  Click={Click}
+                  onClick={() => setCurrentQuestion(0)}
+                  type = {qs[currentQuestion].type}
+                  title = {qs[currentQuestion].title}
+                  questionText={qs[currentQuestion].questionText}
+                  answerOptions= {qs[currentQuestion].answerOptions}
+                  final = {totalLength}
+                  dormButton = {((index) => setArrNum(index))}
                 />
               }
-
-
-
             </p>
             <div className = "Game-wrapper"
             >
 
         {/* https://medium.com/@infinitysanctum8/how-to-add-a-video-background-in-react-js-8c31e0bc4f42*/}
         {/* The link above is one of the tutorials I followed to get this background video to work, but it won't for some reason. */}
-   
+
 
 
 

@@ -5,6 +5,7 @@ import Button from './Button'
 import Donate from './Donate'
 import Menu from './Menu'
 import DormsList from './DormsList'
+import '../index.css'
 
   const Question = (props) => {
     const [score, setScore] = useState(0);
@@ -34,10 +35,9 @@ import DormsList from './DormsList'
 
 
     const showingDormList = <Button
-                          onClick={()=> setShowDormList(!showDormList)}
-                          text = "Toggle Dorm List"
-                          >
-                        </Button>
+                              onClick={()=> setShowDormList(!showDormList)}
+                              text = "Toggle Dorm List">
+                            </Button>
 
 
 
@@ -93,7 +93,7 @@ import DormsList from './DormsList'
             {score > 0 && <Donate media= {props.media} title={props.title}/>}
 
                 {/*we only want to show the next button if there is a next question. This takes care of that problem*/}
-            <h3>{props.questionNumber+1}. {props.questionText}
+            <h3 className='questionStyle'>{props.questionNumber+1}.{props.questionText}
              {props.questionNumber < props.final - 1 && element}
             </h3>
 

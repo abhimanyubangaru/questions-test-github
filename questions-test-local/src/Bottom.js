@@ -6,7 +6,7 @@ import Donate from './components/Donate'
 const Bottom = () => {
 
   return (
-    <div>
+    <div className="bottom">
       Made by Abhi Alexander and Jay
     </div>
   )
