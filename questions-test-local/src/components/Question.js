@@ -87,11 +87,12 @@ import '../index.css'
           {showDormList && dormList}
 
             <br/>
-            <br/>
+
 
 
             {score > 0 && <Donate media= {props.media} title={props.title}/>}
 
+    <br/>
                 {/*we only want to show the next button if there is a next question. This takes care of that problem*/}
             <h3 className='questionStyle'>{props.questionNumber+1}.{props.questionText}
              {props.questionNumber < props.final - 1 && element}

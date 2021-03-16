@@ -20,13 +20,12 @@ body {
 
 .WelcomeBox {
   font-family: serif;
-  color: steelblue;
-  background-color: white;
-  outline: 2px black;
+  color: darkblue;
+    background-color: rgba(255, 255, 255, .5);
   margin: 40px;
   padding: 10px;
   border-radius: 10px;
-  border: 5px solid steelblue;
+  border: 5px solid darkblue;
   width: auto;
   height: auto;
   font-size: 20px;
@@ -90,8 +89,8 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-  color: darkblue;
-  background-color: white;
+  color: white;
+  -webkit-text-stroke: 1.5px darkblue;
   width:auto;
 }
 
@@ -106,6 +105,7 @@ body {
   cursor: pointer;
   font-size: 15px;
   font-family: inherit;
+
 }
 .btn:hover{
   color: black;
@@ -125,6 +125,7 @@ body {
   text-decoration: none;
   font-size: 10px;
   font-family: inherit;
+  border: 1px solid darkblue;
 }
 
 .choices:hover{
@@ -178,6 +179,14 @@ body {
 .questionStyle{
   color: darkblue;
   background-color: white;
+  width: 600px;
+  box-sizing: border-box;
+  border: 2px solid darkblue;
+  border-radius: 10px;
+
+
+
+
 }
 
 
