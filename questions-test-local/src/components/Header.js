@@ -4,7 +4,7 @@ import Button from './Button'
 const Header = (props) => {
   return (
     <div className= "header">
-      <h1 style={{color:'darkblue'}}>{props.title}</h1>
+      <h1 style={{color:'white'}}>{props.title}</h1>
     </div>
   )
 }
